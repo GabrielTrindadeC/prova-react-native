@@ -1,17 +1,23 @@
 import { createAppContainer } from 'react-navigation';
 import { createDrawerNavigator } from 'react-navigation-drawer';
 
-import Home from '../view/home/ Home';
-import Produto from '../view/produto/ Produto';
+import Dashboard from '../view/Dashboard'
+import DefaultCard from '../view/DefaultCards'
+import ContentBlocks from '../view/ContentBlocks'
+import Form from '../view/Form'
+import PricingTables from '../view/PricingTables'
 
 
 const menuConfig = {
-    initialRouteName: 'Home'
+    initialRouteName: 'Form'
 }
 
 const menuRoutes = {
-    Home,
-    Produto
+    Dashboard,
+    DefaultCard,
+    PricingTables,
+    ContentBlocks,
+    Form
 }
 
 const menuNavigator = createDrawerNavigator(menuRoutes,menuConfig)

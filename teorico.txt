@@ -1,0 +1,6 @@
+1) Descreva com suas palavras os itens abaixo no contexto de desenvolvimento React Native.(2 pontos)
+a) Componente: Uma parte separada do codigo que pode ser reutilizada na aplicação afim de economizar tempo 
+b) JSX: Semelhante ao HTML é uma sintaxe que sera renderizada
+c) Método render(): parte de um componente baseado em classe que será renderizado
+e) Props: usado para comunicação e/ou estilização
+f) State: estado atual de uma props renderizada, se o estado for alterado a props renderizado tambem será 

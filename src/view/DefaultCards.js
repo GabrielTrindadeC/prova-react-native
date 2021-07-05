@@ -4,7 +4,7 @@ import { View, Text, StyleSheet } from 'react-native'
 export default props => {
     return (
         <View style={styles.container}>
-            <Text>Estamos na Home</Text>
+
         </View>
     )
 }
