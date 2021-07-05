@@ -9,7 +9,7 @@ import PricingTables from '../view/PricingTables'
 
 
 const menuConfig = {
-    initialRouteName: 'Form'
+    initialRouteName: 'PricingTables'
 }
 
 const menuRoutes = {

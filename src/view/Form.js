@@ -4,13 +4,14 @@ import { View, Text, StyleSheet, ScrollView } from 'react-native'
 import Header from '../components/home/Header'
 import Input from '../components/forms/Inputs/Input'
 import Button from '../components/forms/Buttons/Button'
+import Title from '../components/Title'
 export default props => {
     return (
         <ScrollView style={styles.container}>
             <View style={styles.headerArea}>
                 <Header/>
             </View>
-            <Text style={styles.title}>Forms</Text>
+            <Title title='Forms'/>
             <View style = {styles.input}>
                 <Input place='Email' label='Email'/>
                 <Input place='Password' label = 'Password'/>
@@ -34,13 +35,6 @@ const styles = StyleSheet.create({
     },
     headerArea:{
         marginBottom: 50
-    },
-    title:{
-        fontSize: 30,
-        paddingLeft: 20,
-        color: '#4755ab',
-        height: 100,
-        borderBottomWidth: 1
     },
     btn:{
         width: 150,
